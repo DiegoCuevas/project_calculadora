@@ -8,6 +8,8 @@ while i < num.length
         case num[i]
            when "**"
                 res=num[i-1].to_i.send :**,num[i+1].to_i 
+            # Lian: Este comando aun no funciona debido a que 
+            # faltar mejorar el codigo para que acepte mas digitos.
             when "/"
                 res=num[i-1].to_i.send :/,num[i+1].to_i
             when "*"
